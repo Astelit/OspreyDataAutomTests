@@ -65,20 +65,7 @@ public class SomeTests {
 		driver.findElement(By.xpath(".//a[@class='btn button-run']")).click();
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		System.out.println("Run Models Clicks Fine");
-		
-			/*//Model criteria
-			//driver.findElement(By.xpath("//*[@id='filter_model']/div[2]/div[1]/h4/a")).click();
-			//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			//Organization
-			driver.findElement(By.xpath("//*[@id='filter_model']/div[3]/div[1]/h4/a")).click();
-			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-			//Assert Criteria 
-			driver.findElement(By.xpath(".//a[@href='#filter_assets_criteria']")).click();
-			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			//Event Criteria
-			driver.findElement(By.xpath(".//a[@href='#filter_events_criteria']")).click();
-			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);*/
-			logout();
+	
 		}
 		
 		@Test public void modelsPageClicksFine ()
