@@ -29,23 +29,6 @@ public class SomeTests {
 		System.out.println("Dashboard Financial Tab Works Fine");
 		driver.findElement(By.id(".//*[@id='6']")).click();
 		
-		
-		
-			/*//Model criteria
-			driver.findElement(By.xpath(".//a[@href='#filter_models_criteria']")).click();
-			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);*/
-			//Organization
-			driver.findElement(By.xpath(".//a[@href='#filter_organization_criteria']")).click();
-			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			System.out.println("Dashboard Organization Filter Works Fine");
-			//Assert Criteria 
-			driver.findElement(By.xpath(".//a[@href='#filter_assets_criteria']")).click();
-			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			System.out.println("Dashboard Assert Criteria Filter Works Fine");
-			/*//Event Criteria
-			driver.findElement(By.xpath(".//a[@href='#filter_events_criteria']")).click();
-			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);*/
-			logout();
 	}
 		@Test public void modelsWizardStep4 ()
 		{
