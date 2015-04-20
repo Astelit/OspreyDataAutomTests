@@ -14,7 +14,7 @@ public class SomeTests {
 	{
 		driver = new FirefoxDriver();
 	}
-	
+	//Tests
 	
 	@Test public void dashboardPageClicksFine ()
 	{
